@@ -4,8 +4,8 @@ metadata:
   namespace: example06
   name: smoke-tests
   labels:
-    codefresh.io/cert: smoke-job
-    argocd.argoproj.io/sync-wave: 10
+    codefresh.io/cert: slack-job
+    argocd.argoproj.io/sync-wave: "10"
     argocd.argoproj.io/hook: PostSync
 spec:
   template:
